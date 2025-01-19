@@ -6,7 +6,7 @@ interface ServicesPageProps {
   params: never;
 }
 
-export default await function ServiceDetails({ params }: ServicesPageProps) {
+export default async function ServiceDetails({ params }: ServicesPageProps) {
   const { slug } = params;
 
   const service = aws_services.find((service) => service.id === slug);
@@ -16,4 +16,4 @@ export default await function ServiceDetails({ params }: ServicesPageProps) {
   }
 
   return <ServiceItem service={service} />;
-};
+}
