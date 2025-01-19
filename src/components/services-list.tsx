@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { aws_services, ServiceData } from "@/data/aws-services";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
 const ServicesList = () => {
@@ -20,7 +20,7 @@ const ServicesList = () => {
   });
 
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <div className="mb-6">
         <input
           type="text"
@@ -84,7 +84,7 @@ const ServicesList = () => {
           </>
         )}
       </div>
-    </>
+    </Suspense>
   );
 };
 

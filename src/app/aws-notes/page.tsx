@@ -1,4 +1,6 @@
 import ServicesList from "@/components/services-list";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 const AWSNotes = () => {
   return (
@@ -6,7 +8,9 @@ const AWSNotes = () => {
       <div className="p-6">
         <h1 className="text-3xl font-bold mb-6 text-center">AWS Services</h1>
 
-        <ServicesList />
+        <Suspense fallback={<Loading />}>
+          <ServicesList />
+        </Suspense>
       </div>
     </div>
   );

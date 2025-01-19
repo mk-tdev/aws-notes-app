@@ -1,9 +1,9 @@
 import { aws_services } from "@/data/aws-services";
 import ServiceItem from "@/components/service-item";
-import { KeyValue } from "@/data/common.types";
+// import { KeyValue } from "@/data/common.types";
 
 interface ServicesPageProps {
-  params: KeyValue;
+  params: never;
 }
 
 export default await function ServiceDetails({ params }: ServicesPageProps) {
