@@ -16,6 +16,14 @@ import { aws_services_iot } from "./services/aws_services_iot";
 import { aws_services_management } from "./services/aws_services_management";
 import { aws_services_sec_iam_compliance } from "./services/aws_services_sec_iam_compliance";
 import { aws_services_storage } from "./services/aws_services_storage";
+import { aws_services_manage_gov } from "./services/neww/aws_services_manage_gov";
+import { aws_services_media } from "./services/neww/aws_services_media";
+import { aws_services_migration_transfer } from "./services/neww/aws_services_migration_transfer";
+import { aws_services_ml_ai } from "./services/neww/aws_services_ml_ai";
+import { aws_services_networking_cdn } from "./services/neww/aws_services_networking_cdn";
+import { aws_services_quantum } from "./services/aws_services_quantum";
+import { aws_services_robotics } from "./services/aws_services_robotics";
+import { aws_services_satellite } from "./services/aws_services_satellite";
 
 export interface ServiceData {
   id: string;
@@ -33,15 +41,6 @@ export const testData = {
   service_tag: [ServiceGroups.ACCESSING_AWS_SERVICES],
 };
 
-export const aws_services_ml_ai: ServiceData[] = [];
-export const aws_services_manage_gov: ServiceData[] = [];
-export const aws_services_media: ServiceData[] = [];
-export const aws_services_migration_transfer: ServiceData[] = [];
-export const aws_services_networking_cdn: ServiceData[] = [];
-export const aws_services_quantum: ServiceData[] = [];
-export const aws_services_robotics: ServiceData[] = [];
-export const aws_services_satellite: ServiceData[] = [];
-
 export const aws_services: ServiceData[] = [
   ...aws_services_management,
   ...aws_services_analytics,
@@ -54,6 +53,14 @@ export const aws_services: ServiceData[] = [
   ...aws_services_end_user_compute,
   ...aws_services_front_end,
   ...aws_services_game_tech,
+  ...aws_services_ml_ai,
+  ...aws_services_manage_gov,
+  ...aws_services_media,
+  ...aws_services_migration_transfer,
+  ...aws_services_networking_cdn,
+  ...aws_services_quantum,
+  ...aws_services_robotics,
+  ...aws_services_satellite,
   ...aws_services_iot,
   ...aws_services_compute,
   ...aws_services_customer_enable,
