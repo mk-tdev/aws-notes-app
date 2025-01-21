@@ -15,7 +15,11 @@ export default function ServiceItem({ service }: ServiceItemProps) {
   const searchTerm = searchParams.get("searchTerm");
 
   const handleClick = () => {
-    router.push(`/aws-notes?searchTerm=${searchTerm}`);
+    if (searchTerm) {
+      router.push(`/aws-notes?searchTerm=${searchTerm}`);
+    } else {
+      router.push("/aws-notes");
+    }
   };
 
   return (

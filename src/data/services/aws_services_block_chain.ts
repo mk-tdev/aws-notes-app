@@ -11,6 +11,6 @@ export const aws_services_block_chain: ServiceData[] = [
       "Amazon Managed Blockchain is a fully managed service that allows you to set up and manage a scalable blockchain network with just a few clicks. Amazon Managed Blockchain eliminates the overhead required to create the network, and automatically scales to meet the demands of thousands of applications running millions of transactions. Once your network is up and running, Managed Blockchain makes it easy to manage and maintain your blockchain network. It manages your certificates, lets you easily invite new members to join the network, and tracks operational metrics such as usage of compute, memory, and storage resources. In addition, Managed Blockchain can replicate an immutable copy of your blockchain network activity into Amazon Quantum Ledger Database (Amazon QLDB), a fully managed ledger database. This allows you to easily analyze the network activity outside the network and gain insights into trends.",
     ],
     icon: "/aws/svgs/ManagedBlockchain.svg",
-    service_tag: [ServiceGroups.Blockchain],
+    service_tag: [ServiceGroups.Blockchain.name],
   },
 ];

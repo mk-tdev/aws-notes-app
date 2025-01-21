@@ -10,7 +10,7 @@ export const aws_services_cloud_fin_manage: ServiceData[] = [
       "With the proportionate cost insights of shared AWS resources, organizations running applications can establish the data foundation for accurate cost allocation model, and ISV selling applications can better understand your profitability and customize pricing strategies for your end customers.",
     ],
     icon: "/aws/svgs/ApplicationCostProfiler.svg",
-    service_tag: [ServiceGroups.Cloud_Financial_Management],
+    service_tag: [ServiceGroups.Cloud_Financial_Management.name],
   },
   {
     id: "BillingConductor",
@@ -21,7 +21,7 @@ export const aws_services_cloud_fin_manage: ServiceData[] = [
       "You can configure the billing groups and pricing plans using the AWS Billing Conductor or the AWS Billing Conductor API. For more information about AWS Billing Conductor service quotas, refer to Quotas and restrictions.",
     ],
     icon: "/aws/svgs/BillingConductor.svg",
-    service_tag: [ServiceGroups.Cloud_Financial_Management],
+    service_tag: [ServiceGroups.Cloud_Financial_Management.name],
   },
   {
     id: "CostExplorer",
@@ -30,7 +30,7 @@ export const aws_services_cloud_fin_manage: ServiceData[] = [
       "AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand, and manage your AWS costs and usage over time. Get started quickly by creating custom reports (including charts and tabular data) that analyze cost and usage data, both at a high level (such as total costs and usage across all accounts) and for highly-specific requests (such as m2.2xlarge costs within account Y that are tagged “project: secretProject”).",
     ],
     icon: "/aws/svgs/CostExplorer.svg",
-    service_tag: [ServiceGroups.Cloud_Financial_Management],
+    service_tag: [ServiceGroups.Cloud_Financial_Management.name],
   },
   {
     id: "Budgets",
@@ -41,7 +41,7 @@ export const aws_services_cloud_fin_manage: ServiceData[] = [
       "Budgets can be created and tracked from the AWS Budgets dashboard or via the AWS Budgets API.",
     ],
     icon: "/aws/svgs/Budgets.svg",
-    service_tag: [ServiceGroups.Cloud_Financial_Management],
+    service_tag: [ServiceGroups.Cloud_Financial_Management.name],
   },
   {
     id: "CostAndUsageReport",
@@ -51,7 +51,7 @@ export const aws_services_cloud_fin_manage: ServiceData[] = [
       "The AWS Cost and Usage Report lists AWS usage for each service category used by an account and its IAM users in hourly or daily line items, as well as any tags that you have activated for cost allocation purposes. You can also customize the AWS Cost and Usage Report to aggregate your usage data to the daily or monthly level.",
     ],
     icon: "/aws/svgs/CostAndUsageReport.svg",
-    service_tag: [ServiceGroups.Cloud_Financial_Management],
+    service_tag: [ServiceGroups.Cloud_Financial_Management.name],
   },
   {
     id: "ReservedInstanceReporting",
@@ -60,7 +60,7 @@ export const aws_services_cloud_fin_manage: ServiceData[] = [
       "AWS provides a number of RI-specific cost management solutions out-of-the-box to help you better understand and manage your RIs. Using the RI Utilization and Coverage reports available in AWS Cost Explorer, you can visualize your RI data at an aggregate level or inspect a particular RI subscription. To access the most detailed RI information available, you can leverage the AWS Cost and Usage Report. You can also set a custom RI utilization target via AWS Budgets and receive alerts when your utilization drops below the threshold you define.",
     ],
     icon: "/aws/svgs/ReservedInstanceReporting.svg",
-    service_tag: [ServiceGroups.Cloud_Financial_Management],
+    service_tag: [ServiceGroups.Cloud_Financial_Management.name],
   },
   {
     id: "SavingsPlans",
@@ -69,6 +69,6 @@ export const aws_services_cloud_fin_manage: ServiceData[] = [
       "Savings Plans is a flexible pricing model offering lower prices compared to On-Demand pricing, in exchange for a specific usage commitment (measured in $/hour) for a one or three-year period. AWS offers three types of Savings Plans – Compute Savings Plans, Amazon EC2 Instance Savings Plans, and Amazon SageMaker AI Savings Plans. Compute Savings Plans apply to usage across Amazon EC2, AWS Lambda, and AWS Fargate. The Amazon EC2 Instance Savings Plans apply to EC2 usage, and Amazon SageMaker AI Savings Plans apply to Amazon SageMaker AI usage. You can easily sign up a one- or three-year term Savings Plans in AWS Cost Explorer and manage your plans by taking advantage of recommendations, performance reporting, and budget alerts.",
     ],
     icon: "/aws/svgs/SavingsPlans.svg",
-    service_tag: [ServiceGroups.Cloud_Financial_Management],
+    service_tag: [ServiceGroups.Cloud_Financial_Management.name],
   },
 ];

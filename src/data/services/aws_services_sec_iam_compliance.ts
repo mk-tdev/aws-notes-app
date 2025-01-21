@@ -11,7 +11,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
     ],
     icon: "/aws/svgs/Cognito.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "Detective",
@@ -23,7 +23,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "You can get started with Amazon Detective in just a few clicks in the AWS Management Console. There is no software to deploy, or data sources to enable and maintain. You can try Detective at no additional charge with a 30-day free trial that is available to new accounts.",
     ],
     icon: "/aws/svgs/Detective.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "GuardDuty",
@@ -34,7 +34,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "Amazon GuardDuty is cost effective and easy to operate. It does not require you to deploy and maintain software or security infrastructure, meaning it can be enabled quickly with no risk of negatively impacting existing application and container workloads. There are no upfront costs with GuardDuty, no software to deploy, and no threat intelligence feeds to enable. Furthermore, GuardDuty optimizes costs by applying smart filters and analyzing only a subset of logs relevant to threat detection, and new Amazon GuardDuty accounts are free for 30 days.",
     ],
     icon: "/aws/svgs/GuardDuty.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "Inspector",
@@ -45,7 +45,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "All accounts new to Amazon Inspector are eligible for a 15-day free trial to evaluate the service and estimate its cost. During the trial, all eligible Amazon EC2 instances and container images pushed to Amazon ECR are continually scanned at no cost.",
     ],
     icon: "/aws/svgs/Inspector.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "Macie",
@@ -55,7 +55,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "In the multi-account configuration, a single Macie administrator account can manage all member accounts, including the creation and administration of sensitive data discovery jobs across accounts with AWS Organizations. Security and sensitive data discovery findings are aggregated in the Macie administrator account and sent to Amazon CloudWatch Events and AWS Security Hub. Now using one account, you can integrate with event management, workflow, and ticketing systems or use Macie findings with AWS Step Functions to automate remediation actions. You can quickly get started with Macie using the 30-day trial available to new accounts for S3 bucket inventory and bucket-level evaluation at no charge. Sensitive data discovery is not included in the 30-day trial for bucket evaluation.",
     ],
     icon: "/aws/svgs/Macie.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "SecurityLake",
@@ -66,7 +66,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "Other AWS services and third-party services can subscribe to the data that's stored in Security Lake for incident response and security data analytics.",
     ],
     icon: "/aws/svgs/SecurityLake.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "IdentityAccessManagementPermissions",
@@ -76,7 +76,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "Verified Permissions uses Cedar, an open-source policy language and SDK, to define fine-grained permissions for application users. Your authorization model is defined using principal types, resource types, and valid actions, to control who can take what actions on which resources in a given application context. Policy changes are audited so that you can see who made the changes and when.",
     ],
     icon: "/aws/svgs/IdentityAccessManagementPermissions.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "Artifact",
@@ -85,7 +85,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS Artifact is your go-to, central resource for compliance-related information that matters to you. It provides on-demand access to AWS security and compliance reports and select online agreements. Reports available in AWS Artifact include our Service Organization Control (SOC) reports, Payment Card Industry (PCI) reports, and certifications from accreditation bodies across geographies and compliance verticals that validate the implementation and operating effectiveness of AWS security controls. Agreements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA).",
     ],
     icon: "/aws/svgs/Artifact.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "AuditManager",
@@ -96,7 +96,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "You can get started quickly in the AWS Management Console. Just select a prebuilt framework to launch an assessment and begin automatically collecting and organizing evidence.",
     ],
     icon: "/aws/svgs/AuditManager.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "CertificateManager",
@@ -107,7 +107,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "With AWS Private Certificate Authority, you pay monthly for the operation of the private certificate authority (CA) and for the private certificates you issue. you have a highly available private CA service without the upfront investment and ongoing maintenance costs of operating your own private CA.",
     ],
     icon: "/aws/svgs/CertificateManager.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "CloudHsm",
@@ -117,7 +117,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS CloudHSM is standards-compliant and enables you to export all of your keys to most other commercially-available HSMs, subject to your configurations. It is a fully managed service that automates time-consuming administrative tasks for you, such as hardware provisioning, software patching, high-availability, and backups. AWS CloudHSM also enables you to scale quickly by adding and removing HSM capacity on-demand, with no up-front costs.",
     ],
     icon: "/aws/svgs/CloudHsm.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "CloudDirectory",
@@ -126,7 +126,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud. AWS Managed Microsoft AD is built on actual Microsoft Active Directory and does not require you to synchronize or replicate data from your existing Active Directory to the cloud. You can use standard Active Directory administration tools and take advantage of built-in Active Directory features such as Group Policy and single sign-on (SSO). With AWS Managed Microsoft AD, you can easily join Amazon EC2 and Amazon RDS for SQL Server instances to a domain, and use AWS Enterprise IT applications such as Amazon WorkSpaces with Active Directory users and groups.",
     ],
     icon: "/aws/svgs/CloudDirectory.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "NetworkFirewall_1",
@@ -135,7 +135,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS Firewall Manager is a security management service which allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organizations. As new applications are created, Firewall Manager makes it easy to bring new applications and resources into compliance by enforcing a common set of security rules. Now you have a single service to build firewall rules, create security policies, and enforce them in a consistent, hierarchical manner across your entire infrastructure, from a central administrator account.",
     ],
     icon: "/aws/svgs/NetworkFirewall.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "FirewallManager",
@@ -147,7 +147,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "Manage single-account IAM roles: IAM roles allows you to delegate access to users or services that normally don’t have access to your organization’s AWS resources. IAM users or AWS services can assume a role to obtain a temporary security credential that be used to make AWS API calls. You don’t have to share long-term credentials or define permissions for each identity.",
     ],
     icon: "/aws/svgs/FirewallManager.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "KeyManagementServices",
@@ -156,7 +156,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS Key Management Service (AWS KMS) makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications. AWS KMS uses hardware security modules (HSM) to protect and validate your AWS KMS keys under the FIPS 140-2 Cryptographic Module Validation Program. AWS KMS is integrated with AWS CloudTrail to provide you with logs of all key usage to help meet your regulatory and compliance needs.",
     ],
     icon: "/aws/svgs/KeyManagementServices.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "NetworkFirewall",
@@ -167,7 +167,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "It’s easy to get started with AWS Network Firewall by visiting the Amazon VPC Console to create or import your firewall rules, group them into policies, and apply them to the VPCs you want to protect. AWS Network Firewall pricing is based on the number of firewalls deployed and the amount of traffic inspected. There are no upfront commitments and you pay only for what you use.",
     ],
     icon: "/aws/svgs/NetworkFirewall.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "ResourceAccessManager",
@@ -177,7 +177,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "Many organizations use multiple accounts to create administrative or billing isolation, and to limit the impact of errors. With AWS RAM, you don’t need to create duplicate resources in multiple AWS accounts. This reduces the operational overhead of managing resources in every account that you own. Instead, in your multi-account environment, you can create a resource once, and use AWS RAM to share that resource across accounts by creating a resource share. When you create a resource share, you select the resources to share, choose an AWS RAM managed permission per resource type, and specify whom you want to have access to the resources. AWS RAM is available to you at no additional charge.",
     ],
     icon: "/aws/svgs/ResourceAccessManager.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "SecretsManager",
@@ -186,7 +186,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS Secrets Manager helps you protect secrets needed to access your applications, services, and IT resources. The service enables you to easily rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle. Users and applications retrieve secrets with a call toSecrets Manager APIs, eliminating the need to hardcode sensitive information in plain text. Secrets Manager offers secret rotation with built-in integration for Amazon RDS, Amazon Redshift, and Amazon DocumentDB. The service is also extensible to other types of secrets, including API keys and OAuth tokens. In addition, Secrets Manager enables you to control access to secrets using fine-grained permissions and audit secret rotation centrally for resources in the AWS Cloud, third-party services, and on-premises.",
     ],
     icon: "/aws/svgs/SecretsManager.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "SecurityHub",
@@ -197,7 +197,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "Getting started with Security Hub requires just a few clicks from the AWS Management Console to begin aggregating findings and conducting security checks using our 30-day free trial. You can integrate Security Hub with AWS Organizations to automatically enable the service in all accounts in your organization.",
     ],
     icon: "/aws/svgs/SecurityHub.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "Shield",
@@ -209,7 +209,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS Shield Advanced is available globally on all Amazon CloudFront and Amazon Route 53 edge locations. You can protect your web applications hosted anywhere in the world by deploying Amazon CloudFront in front of your application. Your origin servers can be Amazon S3, Amazon Elastic Compute Cloud (Amazon EC2), Elastic Load Balancing (ELB), or a custom server outside of AWS. You can also enable AWS Shield Advanced directly on an Elastic IP or Elastic Load Balancing (ELB) in the following AWS Regions: Northern Virginia, Ohio, Oregon, Northern California, Montreal, São Paulo, Ireland, Frankfurt, London, Paris, Stockholm, Singapore, Tokyo, Sydney, Seoul, Mumbai, Milan, and Cape Town.",
     ],
     icon: "/aws/svgs/Shield.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "IdentityAndAccessManagement",
@@ -218,7 +218,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS IAM Identity Center (SSO) is a cloud SSO service that makes it easy to centrally manage SSO access to multiple AWS accounts and business applications. With just a few clicks, you can enable a highly available SSO service without the upfront investment and on-going maintenance costs of operating your own SSO infrastructure. With IAM Identity Center, you can easily manage SSO access and user permissions to all of your accounts in AWS Organizations centrally. IAM Identity Center also includes built-in SAML integrations to many business applications, such as Salesforce, Box, and Microsoft Office 365. Further, by using the IAM Identity Center application configuration wizard, you can create Security Assertion Markup Language (SAML) 2.0 integrations and extend SSO access to any of your SAML-enabled applications. Your users simply sign in to a user portal with credentials they configure in IAM Identity Center or using their existing corporate credentials to access all their assigned accounts and applications from one place.",
     ],
     icon: "/aws/svgs/IdentityAndAccessManagement.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "Waf_1",
@@ -227,7 +227,7 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS WAF is a web application ﬁrewall that helps protect your web applications or APIs against common web exploits and bots that may affect availability, compromise security, or consume excessive resources. AWS WAF gives you control over how traffic reaches your applications by enabling you to create security rules that control bot traffic and block common attack patterns, such as SQL injection or cross-site scripting. You can also customize rules that filter out specific traffic patterns. You can get started quickly using Managed Rules for AWS WAF, a pre-configured set of rules managed by AWS or AWS Marketplace sellers to address issues like the OWASP Top 10 security risks and automated bots that consume excess resources, skew metrics, or can cause downtime. These rules are regularly updated as new issues emerge. AWS WAF includes a full-featured API that you can use to automate the creation, deployment, and maintenance of security rules.",
     ],
     icon: "/aws/svgs/Waf.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
   {
     id: "Waf_2",
@@ -236,6 +236,6 @@ export const aws_services_sec_iam_compliance: ServiceData[] = [
       "AWS WAF Captcha helps block unwanted bot traffic by requiring users to successfully complete challenges before their web request are allowed to reach AWS WAF protected resources. You can configure AWS WAF rules to require WAF Captcha challenges to be solved for specific resources that are frequently targeted by bots such as login, search, and form submissions. You can also require WAF Captcha challenges for suspicious requests based on the rate, attributes, or labels generated from AWS Managed Rules, such as AWS WAF Bot Control or the Amazon IP Reputation list. WAF Captcha challenges are simple for humans while remaining effective against bots. WAF Captcha includes an audio version and is designed to meet Web Content Accessability Guidelines (WCAG) accessibility requirements.",
     ],
     icon: "/aws/svgs/Waf.svg",
-    service_tag: [ServiceGroups.Security_identity_and_compliance],
+    service_tag: [ServiceGroups.Security_identity_and_compliance.name],
   },
 ];

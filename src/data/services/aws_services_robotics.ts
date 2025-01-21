@@ -12,6 +12,6 @@ export const aws_services_robotics: ServiceData[] = [
       "AWS RoboMaker provides you with the tools to make building intelligent robotics applications more accessible, a fully managed simulation service for quick and easy testing, and a deployment service for lifecycle management. AWS RoboMaker removes the heavy lifting from each step of robotics development so you can focus on creating innovative robotics applications.",
     ],
     icon: "/aws/svgs/RoboMaker.svg",
-    service_tag: [ServiceGroups.Robotics],
+    service_tag: [ServiceGroups.Robotics.name],
   },
 ];

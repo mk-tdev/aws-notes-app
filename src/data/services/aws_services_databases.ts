@@ -13,7 +13,7 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon Aurora MySQL zero-ETL integration with Amazon Redshift, now available in public preview, enables near real-time analytics and machine learning of data stored in Aurora MySQL-Compatible Edition. Transactional data written to Aurora is available to you in Amazon Redshift within seconds, without building and maintaining complex data pipelines.",
     ],
     icon: "/aws/svgs/Aurora.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "DynamoDb",
@@ -24,7 +24,7 @@ export const aws_services_databases: ServiceData[] = [
       "Hundreds of thousands of AWS customers have chosen DynamoDB as their key-value and document database for mobile, web, gaming, ad tech, Internet of Things (IoT), and other applications that need low-latency data access at any scale. Create a new table for your application and let DynamoDB handle the rest.",
     ],
     icon: "/aws/svgs/DynamoDb.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "ElastiCache_DB",
@@ -37,7 +37,7 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon ElastiCache Serverless is a serverless option for Amazon ElastiCache that simplifies cache management and instantly scales to support the most demanding applications. With ElastiCache Serverless, you can create a highly available and scalable cache in less than a minute, eliminating the need to plan for, provision, and manage cache cluster capacity. ElastiCache Serverless automatically stores data redundantly across multiple Availability Zones (AZs) and provides a 99.99% availability Service Level Agreement (SLA). With ElastiCache Serverless, you pay for data stored and compute consumed by your workload, with no upfront commitments or additional costs.",
     ],
     icon: "/aws/svgs/ElastiCache.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "Keyspaces",
@@ -46,7 +46,7 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra–compatible database service. With Amazon Keyspaces, you can run your Cassandra workloads on AWS using the same Cassandra application code and developer tools that you use today. You don’t have to provision, patch, or manage servers, and you don’t have to install, maintain, or operate software. Amazon Keyspaces is serverless, so you pay for only the resources you use and the service can automatically scale tables up and down in response to application traffic. You can build applications that serve thousands of requests per second with virtually unlimited throughput and storage. Data is encrypted by default and Amazon Keyspaces enables you to back up your table data continuously using point-in-time recovery. Amazon Keyspaces gives you the performance, elasticity, and enterprise features you need to operate business-critical Cassandra workloads at scale.",
     ],
     icon: "/aws/svgs/Keyspaces.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "MemoryDBforRedis",
@@ -56,7 +56,7 @@ export const aws_services_databases: ServiceData[] = [
       "MemoryDB is compatible with Redis, a popular open source data store, enabling customers to quickly build applications using the same flexible and friendly Redis data structures, APIs, and commands that they already use today. With MemoryDB, all of your data is stored in memory, which enables you to achieve microsecond read and single-digit millisecond write latency and high throughput. MemoryDB also stores data durably across multiple Availability Zones using a distributed transactional log to allow fast failover, database recovery, and node restarts. Delivering both in-memory performance and Multi-AZ durability, MemoryDB can be used as a high-performance primary database for your microservices applications eliminating the need to separately manage both a cache and durable database.",
     ],
     icon: "/aws/svgs/MemoryDBforRedis.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "Neptune",
@@ -67,7 +67,7 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon Neptune Analytics is an analytics database engine for quickly analyzing large volumes of graph data to get insights and find trends from data stored in Amazon S3 buckets or a Neptune database. Neptune Analytics uses built-in algorithms, vector search, and in-memory computing to run queries on data with tens of billions of relationships in seconds.",
     ],
     icon: "/aws/svgs/Neptune.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "Rds",
@@ -77,7 +77,7 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon RDS is available on several database instance types—optimized for memory, performance or I/O—and provides you with six familiar database engines to choose from, including MySQL, MariaDB, PostgreSQL, Oracle Database, Microsoft SQL Server, and Amazon RDS on AWS Outposts. You can use the AWS Database Migration Service to easily migrate or replicate your existing databases to Amazon RDS.",
     ],
     icon: "/aws/svgs/Rds.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "Rds_db2",
@@ -86,7 +86,7 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon RDS for Db2 makes it easy to set up, operate, and scale Db2 deployments in the cloud. Amazon RDS automates time-consuming database administration tasks, such as provisioning, backups, software patching, monitoring, and more, to free up time to innovate and drive business value. It also offers high availability with Multi-AZ deployment, disaster recovery solutions with cross-Region backups, and security features to support your business-critical workloads. In addition, you can integrate with other IBM and AWS services to gain new insights and scale your analytics workloads.",
     ],
     icon: "/aws/svgs/Rds.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "RdsForVMware",
@@ -96,7 +96,7 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon RDS on VMware allows you to utilize the same simple interface for managing databases in on-premises VMware environments as you would use in AWS. You can easily replicate Amazon RDS on VMware databases to Amazon RDS instances in AWS, enabling low-cost hybrid deployments for disaster recovery, read replica bursting, and optional long-term backup retention in Amazon Simple Storage Service (Amazon S3).",
     ],
     icon: "/aws/svgs/RdsForVMware.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "QuantumLedgerDatabase",
@@ -107,7 +107,7 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon QLDB is a new class of database that eliminates the need to engage in the complex development effort of building your own ledger-like applications. With QLDB, your data’s change history is immutable – it cannot be altered or deleted – and using cryptography, you can easily verify that there have been no unintended modifications to your application’s data. QLDB uses an immutable transactional log, known as a journal, that tracks each application data change and maintains a complete and verifiable history of changes over time. QLDB is easy to use because it provides developers with a familiar SQL-like API, a flexible document data model, and full support for transactions. QLDB is also serverless, so it automatically scales to support the demands of your application. There are no servers to manage and no read or write limits to configure. With QLDB, you only pay for what you use.",
     ],
     icon: "/aws/svgs/QuantumLedgerDatabase.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "Timestream",
@@ -117,7 +117,7 @@ export const aws_services_databases: ServiceData[] = [
       "Timestream is a purpose-built time series database that efficiently stores and processes this data by time intervals. With Timestream, you can easily store and analyze log data for DevOps, sensor data for IoT applications, and industrial telemetry data for equipment maintenance. As your data grows over time, the Timestream adaptive query processing engine understands its location and format, making your data simpler and faster to analyze. Timestream also automates rollups, retention, tiering, and compression of data, so you can manage your data at the lowest possible cost. Timestream is serverless, so there are no servers to manage. It manages time-consuming tasks such as server provisioning, software patching, setup, configuration, or data retention and tiering, freeing you to focus on building your applications.",
     ],
     icon: "/aws/svgs/Timestream.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "DocumentDb",
@@ -127,7 +127,7 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon DocumentDB is designed from the ground-up to give you the performance, scalability, and availability you need when operating mission-critical MongoDB workloads at scale. Amazon DocumentDB implements the Apache 2.0 open source MongoDB 3.6 and 4.0 APIs by emulating the responses that a MongoDB client expects from a MongoDB server, allowing you to use your existing MongoDB drivers and tools with Amazon DocumentDB (with MongoDB compatibility).",
     ],
     icon: "/aws/svgs/DocumentDb.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
   {
     id: "Lightsail_DB",
@@ -136,6 +136,6 @@ export const aws_services_databases: ServiceData[] = [
       "Amazon Lightsail managed databases are separate from compute workloads, so you can build applications and websites on Lightsail instances without interruption. Lightsail supports MySQL and PostgreSQL databases , and you can configure them for standard availability for regular workloads or high availability for critical workloads. Lightsail-managed databases bundle the underlying compute, SSD-based storage, and data transfer bandwidth into a fixed monthly price. You can manage your Lightsail-managed database by using the Lightsail console, the AWS Command Line Interface (AWS CLI), the Lightsail API, or an AWS SDK",
     ],
     icon: "/aws/svgs/Lightsail.svg",
-    service_tag: [ServiceGroups.Databases],
+    service_tag: [ServiceGroups.Databases.name],
   },
 ];

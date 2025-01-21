@@ -11,6 +11,6 @@ export const aws_services_quantum: ServiceData[] = [
       "Amazon Braket overcomes these challenges so you can explore quantum computing. With Amazon Braket, you can design and build your own quantum algorithms from scratch or choose from a set of pre-built algorithms. Once you have built your algorithm, Amazon Braket provides a choice of simulators to test, troubleshoot and run your algorithms. When you are ready, you can run your algorithm on your choice of different quantum computers, and gate-based computers from Rigetti and IonQ. With Amazon Braket, you can now evaluate the potential of quantum computing for your organization, and build expertise.",
     ],
     icon: "/aws/svgs/Braket.svg",
-    service_tag: [ServiceGroups.Quantum_technologies],
+    service_tag: [ServiceGroups.Quantum_technologies.name],
   },
 ];

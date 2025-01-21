@@ -1,5 +1,5 @@
-import { ServiceGroups } from "../../aws-service-groups";
-import { ServiceData } from "../../aws-services";
+import { ServiceGroups } from "../aws-service-groups";
+import { ServiceData } from "../aws-services";
 
 export const aws_services_ml_ai: ServiceData[] = [
   {
@@ -9,7 +9,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Augmented AI (Amazon A2I) is a ML service which makes it easy to build the workflows required for human review. Amazon A2I brings human review to all developers, removing the undifferentiated heavy lifting associated with building human review systems or managing large numbers of human reviewers, whether it runs on AWS or not.",
     ],
     icon: "/aws/svgs/AugmentedAiA2I.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Bedrock",
@@ -19,7 +19,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "You can choose from a variety of foundation models, including Amazon Titan, Claude 2 from Anthropic, Command and Embed from Cohere, Jurassic-2 from AI21 Studio, and Stable Diffusion from Stability AI.",
     ],
     icon: "/aws/svgs/DefaultManagedServices.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "CodeGuru",
@@ -30,7 +30,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon CodeGuru Profiler helps developers find an application’s most expensive lines of code by helping them understand the runtime behavior of their applications, identify and remove code inefficiencies, improve performance, and significantly decrease compute costs.",
     ],
     icon: "/aws/svgs/CodeGuru.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Comprehend",
@@ -40,7 +40,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "For extracting complex medical information from unstructured text, you can use Amazon Comprehend Medical. The service can identify medical information, such as medical conditions, medications, dosages, strengths, and frequencies from a variety of sources like doctor’s notes, clinical trial reports, and patient health records. Amazon Comprehend Medical also identifies the relationship among the extracted medication and test, treatment and procedure information for easier analysis. For example, the service identifies a particular dosage, strength, and frequency related to a specific medication from unstructured clinical notes.",
     ],
     icon: "/aws/svgs/Comprehend.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "DevOpsGuru",
@@ -51,7 +51,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon DevOps Guru automatically ingests operational data from your AWS applications and provides a single dashboard to visualize issues in your operational data. You can get started by enabling Amazon DevOps Guru for all resources in your AWS account, resources in your AWS CloudFormation Stacks, or resources grouped together by AWS tags, with no manual setup or ML expertise required.",
     ],
     icon: "/aws/svgs/DevOpsGuru.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Forecast",
@@ -63,7 +63,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Forecast is a fully managed service, so there are no servers to provision, and no ML models to build, train, or deploy. You pay only for what you use, and there are no minimum fees and no upfront commitments.",
     ],
     icon: "/aws/svgs/Forecast.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "FraudDetector",
@@ -72,7 +72,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Fraud Detector is a fully managed service that uses ML and more than 20 years of fraud detection expertise from Amazon, to identify potentially fraudulent activity so customers can catch more online fraud faster. Amazon Fraud Detector automates the time consuming and expensive steps to build, train, and deploy an ML model for fraud detection, making it easier for customers to leverage the technology. Amazon Fraud Detector customizes each model it creates to a customer’s own dataset, making the accuracy of models higher than current one-size fits all ML solutions. And, because you pay only for what you use, you avoid large upfront expenses.",
     ],
     icon: "/aws/svgs/FraudDetector.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "ComprehendMedical",
@@ -81,7 +81,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Over the past decade, AWS has witnessed a digital transformation in health, with organizations capturing huge volumes of patient information every day. But this data is often unstructured and the process to extract this information is labor-intensive and error-prone. Amazon Comprehend Medical is a HIPAA-eligible natural language processing (NLP) service that uses machine learning that has been pre-trained to understand and extract health data from medical text, such as prescriptions, procedures, or diagnoses. Amazon Comprehend Medical can help you extract information from unstructured medical text accurately and quickly with medical ontologies like ICD-10-CM, RxNorm, and SNOMED CT and in turn accelerate insurance claim processing, improve population health, and accelerate pharmacovigilance.",
     ],
     icon: "/aws/svgs/ComprehendMedical.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Kendra",
@@ -91,7 +91,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Using Amazon Kendra, you can stop searching through troves of unstructured data and discover the right answers to your questions, when you need them. Amazon Kendra is a fully managed service, so there are no servers to provision, and no ML models to build, train, or deploy.",
     ],
     icon: "/aws/svgs/Kendra.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Lex",
@@ -101,7 +101,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Lex enables developers to build conversational chatbots quickly. With Amazon Lex, no deep learning expertise is necessary—to create a bot, you just specify the basic conversation flow in the Amazon Lex console. Amazon Lex manages the dialogue and dynamically adjusts the responses in the conversation. Using the console, you can build, test, and publish your text or voice chatbot. You can then add the conversational interfaces to bots on mobile devices, web applications, and chat platforms (for example, Facebook Messenger). There are no upfront costs or minimum fees to use Amazon Lex - you are charged only for the text or speech requests that are made. The pay-as-you-go pricing and the low cost per request make the service a cost-effective way to build conversational interfaces. With the Amazon Lex free tier, you can easily try Amazon Lex without any initial investment.",
     ],
     icon: "/aws/svgs/Lex.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "LookoutforEquipment",
@@ -110,7 +110,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Lookout for Equipment analyzes the data from the sensors on your equipment (such as pressure in a generator, flow rate of a compressor, revolutions per minute of fans), to automatically train an ML model based on just your data, for your equipment – with no ML expertise required. Lookout for Equipment uses your unique ML model to analyze incoming sensor data in real-time and accurately identify early warning signs that could lead to machine failures. This means you can detect equipment abnormalities with speed and precision, quickly diagnose issues, take action to reduce expensive downtime, and reduce false alerts.",
     ],
     icon: "/aws/svgs/LookoutforEquipment.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "LookoutforMetrics",
@@ -119,7 +119,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Lookout for Metrics uses ML to automatically detect and diagnose anomalies (outliers from the norm) in business and operational data, such as a sudden dip in sales revenue or customer acquisition rates. In a couple of clicks, you can connect Amazon Lookout for Metrics to popular data stores such as Amazon S3, Amazon Redshift, and Amazon Relational Database Service (Amazon RDS), as well as third-party Software as a Service (SaaS) applications, such as Salesforce, Servicenow, Zendesk, and Marketo, and start monitoring metrics that are important to your business. Amazon Lookout for Metrics automatically inspects and prepares the data from these sources to detect anomalies with greater speed and accuracy than traditional methods used for anomaly detection. You can also provide feedback on detected anomalies to tune the results and improve accuracy over time. Amazon Lookout for Metrics makes it easy to diagnose detected anomalies by grouping together anomalies that are related to the same event and sending an alert that includes a summary of the potential root cause. It also ranks anomalies in order of severity so that you can prioritize your attention to what matters the most to your business.",
     ],
     icon: "/aws/svgs/LookoutforMetrics.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "LookoutforVision",
@@ -128,7 +128,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Lookout for Vision is an ML service that spots defects and anomalies in visual representations using computer vision (CV). With Amazon Lookout for Vision, manufacturing companies can increase quality and reduce operational costs by quickly identifying differences in images of objects at scale. For example, Amazon Lookout for Vision can be used to identify missing components in products, damage to vehicles or structures, irregularities in production lines, miniscule defects in silicon wafers, and other similar problems. Amazon Lookout for Vision uses ML to see and understand images from any camera as a person would, but with an even higher degree of accuracy and at a much larger scale. Amazon Lookout for Vision allows customers to eliminate the need for costly and inconsistent manual inspection, while improving quality control, defect and damage assessment, and compliance. In minutes, you can begin using Amazon Lookout for Vision to automate inspection of images and objects – with no ML expertise required.",
     ],
     icon: "/aws/svgs/LookoutforVision.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Monitron",
@@ -139,7 +139,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Monitron includes sensors to capture vibration and temperature data from equipment, a gateway device to securely transfer data to AWS, the Amazon Monitron service that analyzes the data for abnormal machine patterns using ML, and a companion mobile app to set up the devices and receive reports on operating behavior and alerts to potential failures in your machinery. You can start monitoring equipment health in minutes without any development work or ML experience required, and enable predictive maintenance with the same technology used to monitor equipment in Amazon Fulfillment Centers.",
     ],
     icon: "/aws/svgs/Monitron.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "PartyRock",
@@ -148,7 +148,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon PartyRock makes learning generative AI easy with a hands-on, code-free app builder. Experiment with prompt engineering techniques, review generated responses, and develop intuition for generative AI while creating and exploring fun apps. PartyRock provides access to foundation models (FMs) from Amazon and leading AI companies through Amazon Bedrock, a fully managed serviced service.",
     ],
     icon: "/aws/svgs/DefaultManagedServices.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Personalize",
@@ -162,7 +162,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Personalize is like having your own Amazon.com ML personalization team at your disposal, 24 hours a day.",
     ],
     icon: "/aws/svgs/Personalize.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Polly",
@@ -174,7 +174,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "With Amazon Polly, you pay only for the number of characters you convert to speech, and you can save and replay Amazon Polly generated speech. The Amazon Polly low cost per character converted, and lack of restrictions on storage and reuse of voice output, make it a cost-effective way to enable Text-to-Speech everywhere.",
     ],
     icon: "/aws/svgs/Polly.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "AmazonQ",
@@ -184,7 +184,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Q Business can answer questions, provide summaries, generate content, and securely complete tasks based on data and information in your enterprise systems. It empowers employees to be more creative, data-driven, efficient, prepared, and productive.",
     ],
     icon: "/aws/svgs/DefaultManagedServices.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Rekognition",
@@ -194,7 +194,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "With Amazon Rekognition Custom Labels, you can identify the objects and scenes in images that are specific to your business needs. For example, you can build a model to classify specific machine parts on your assembly line or to detect unhealthy plants. Amazon Rekognition Custom Labels takes care of the heavy lifting of model development for you, so no ML experience is required. You simply need to supply images of objects or scenes you want to identify, and the service handles the rest.",
     ],
     icon: "/aws/svgs/Rekognition.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "SageMaker",
@@ -203,7 +203,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "With Amazon SageMaker AI, you can build, train, and deploy ML models for any use case with fully managed infrastructure, tools, and workflows. SageMaker AI removes the heavy lifting from each step of the ML process to make it easier to develop high-quality models. SageMaker AI provides all of the components used for ML in a single toolset so models get to production faster with much less effort and at lower cost.",
     ],
     icon: "/aws/svgs/SageMaker.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Textract",
@@ -212,7 +212,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Textract is a service that automatically extracts text and data from scanned documents. Amazon Textract goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables.",
     ],
     icon: "/aws/svgs/Textract.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Transcribe",
@@ -221,7 +221,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy for customers to automatically convert speech to text. The service can transcribe audio files stored in common formats, like WAV and MP3, with time stamps for every word so that you can easily locate the audio in the original source by searching for the text. You can also send a live audio stream to Amazon Transcribe and receive a stream of transcripts in real time. Amazon Transcribe is designed to handle a wide range of speech and acoustic characteristics, including variations in volume, pitch, and speaking rate. The quality and content of the audio signal (including but not limited to factors such as background noise, overlapping speakers, accented speech, or switches between languages within a single audio file) may affect the accuracy of service output. Customers can choose to use Amazon Transcribe for a variety of business applications, including transcription of voice-based customer service calls, generation of subtitles on audio/video content, and conduct (text based) content analysis on audio/video content.",
     ],
     icon: "/aws/svgs/Transcribe.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Translate",
@@ -230,7 +230,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation. Neural machine translation is a form of language translation automation that uses deep learning models to deliver more accurate and more natural sounding translation than traditional statistical and rule-based translation algorithms. Amazon Translate allows you to localize content such as websites and applications for your diverse users, easily translate large volumes of text for analysis, and efficiently enable cross-lingual communication between users.",
     ],
     icon: "/aws/svgs/Translate.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "DeepComposer",
@@ -239,7 +239,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "AWS DeepComposer is the world’s first musical keyboard powered by ML to enable developers of all skill levels to learn Generative AI while creating original music outputs. DeepComposer consists of a USB keyboard that connects to the developer’s computer, and the DeepComposer service, accessed through the AWS Management Console. DeepComposer includes tutorials, sample code, and training data that can be used to start building generative models.",
     ],
     icon: "/aws/svgs/DeepComposer.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Deepracer",
@@ -249,7 +249,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "With AWS DeepRacer, you now have a way to get hands-on with RL, experiment, and learn through autonomous driving. You can get started with the virtual car and tracks in the cloud-based 3D racing simulator, and for a real-world experience, you can deploy your trained models onto AWS DeepRacer and race your friends, or take part in the global AWS DeepRacer League. Developers, the race is on.",
     ],
     icon: "/aws/svgs/Deepracer.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "HealthLake",
@@ -260,7 +260,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "Healthcare providers can use HealthLake to store, transform, query, and analyze data in the AWS Cloud. Using the HealthLake integrated medical natural language processing (NLP) capabilities, you can analyze unstructured clinical text from diverse sources. HealthLake transforms unstructured data using natural language processing models, and provides powerful query and search capabilities. You can use HealthLake to organize, index, and structure patient information in a secure, compliant, and auditable manner.",
     ],
     icon: "/aws/svgs/HealthLake.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "HealthScribe",
@@ -269,7 +269,7 @@ export const aws_services_ml_ai: ServiceData[] = [
       "AWS HealthScribe is a HIPAA-eligible service that allows healthcare software vendors to automatically generate clinical notes by analyzing patient-clinician conversations. AWS HealthScribe combines speech recognition with generative AI to reduce the burden of clinical documentation by transcribing conversations and quickly producing clinical notes. Conversations are segmented to identify the speaker roles for patients and clinicians, extract medical terms, and generate preliminary clinical notes. To protect sensitive patient data, security and privacy are built-in to ensure that the input audio and the output text are not retained in AWS HealthScribe.",
     ],
     icon: "/aws/svgs/DefaultManagedServices.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
   {
     id: "Panorama",
@@ -278,6 +278,6 @@ export const aws_services_ml_ai: ServiceData[] = [
       "AWS Panorama is a collection of ML devices and software development kit (SDK) that brings computer vision (CV) to on-premises internet protocol (IP) cameras. With AWS Panorama, you can automate tasks that have traditionally required human inspection to improve visibility into potential issues.",
     ],
     icon: "/aws/svgs/DefaultManagedServices.svg",
-    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence],
+    service_tag: [ServiceGroups.Machine_Learning_and_Artificial_Intelligence.name],
   },
 ];

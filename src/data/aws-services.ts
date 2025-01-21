@@ -16,11 +16,11 @@ import { aws_services_iot } from "./services/aws_services_iot";
 import { aws_services_management } from "./services/aws_services_management";
 import { aws_services_sec_iam_compliance } from "./services/aws_services_sec_iam_compliance";
 import { aws_services_storage } from "./services/aws_services_storage";
-import { aws_services_manage_gov } from "./services/neww/aws_services_manage_gov";
-import { aws_services_media } from "./services/neww/aws_services_media";
-import { aws_services_migration_transfer } from "./services/neww/aws_services_migration_transfer";
-import { aws_services_ml_ai } from "./services/neww/aws_services_ml_ai";
-import { aws_services_networking_cdn } from "./services/neww/aws_services_networking_cdn";
+import { aws_services_manage_gov } from "./services/aws_services_manage_gov";
+import { aws_services_media } from "./services/aws_services_media";
+import { aws_services_migration_transfer } from "./services/aws_services_migration_transfer";
+import { aws_services_ml_ai } from "./services/aws_services_ml_ai";
+import { aws_services_networking_cdn } from "./services/aws_services_networking_cdn";
 import { aws_services_quantum } from "./services/aws_services_quantum";
 import { aws_services_robotics } from "./services/aws_services_robotics";
 import { aws_services_satellite } from "./services/aws_services_satellite";
@@ -38,7 +38,7 @@ export const testData = {
   name: "name",
   description: ["desc", "desc"],
   icon: "/aws/svgs/ManagementConsole.svg",
-  service_tag: [ServiceGroups.ACCESSING_AWS_SERVICES],
+  service_tag: [ServiceGroups.ACCESSING_AWS_SERVICES.name],
 };
 
 export const aws_services: ServiceData[] = [

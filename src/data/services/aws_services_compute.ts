@@ -17,7 +17,7 @@ export const aws_services_compute: ServiceData[] = [
       "Dedicated Hosts — A Dedicated Host is a physical EC2 server dedicated for your use. Dedicated Hosts can help you reduce costs by allowing you to use your existing server-bound software licenses, including Windows Server, Microsoft SQL Server, and SUSE Linux Enterprise Server (subject to your license terms), and can also help you meet compliance requirements.",
     ],
     icon: "/aws/svgs/Ec2.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "AutoScaling",
@@ -26,7 +26,7 @@ export const aws_services_compute: ServiceData[] = [
       "Amazon EC2 Auto Scaling helps you maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define. You can use the fleet management features of Amazon EC2 Auto Scaling to maintain the health and availability of your fleet. You can also use the dynamic and predictive scaling features of Amazon EC2 Auto Scaling to add or remove EC2 instances. Dynamic scaling responds to changing demand and predictive scaling automatically schedules the right number of EC2 instances based on predicted demand. Dynamic scaling and predictive scaling can be used together to scale faster.",
     ],
     icon: "/aws/svgs/AutoScaling.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "Ec2ImageBuilder",
@@ -38,7 +38,7 @@ export const aws_services_compute: ServiceData[] = [
       "Image Builder is offered at no cost, other than the cost of the underlying AWS resources used to create, store, and share the images.",
     ],
     icon: "/aws/svgs/Ec2ImageBuilder.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "Lightsail",
@@ -47,7 +47,7 @@ export const aws_services_compute: ServiceData[] = [
       "Amazon Lightsail is designed to be the easiest way to launch and manage a virtual private server with AWS. Lightsail plans include everything you need to jumpstart your project – a VM, SSD-based storage, data transfer, DNS management, and a static IP address – for a low, predictable price.",
     ],
     icon: "/aws/svgs/Lightsail.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "Ec2_linux",
@@ -58,7 +58,7 @@ export const aws_services_compute: ServiceData[] = [
       "Amazon Linux 2023 is generally available in all AWS Regions, including the AWS GovCloud (US) and the China Regions.",
     ],
     icon: "/aws/svgs/Ec2.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "AppRunner",
@@ -67,7 +67,7 @@ export const aws_services_compute: ServiceData[] = [
       "AWS App Runner is a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required. Start with your source code or a container image. AWS App Runner automatically builds and deploys the web application and load balances traffic with encryption. App Runner also scales up or down automatically to meet your traffic needs. With App Runner, rather than thinking about servers or scaling, you have more time to focus on your applications.",
     ],
     icon: "/aws/svgs/AppRunner.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "Batch",
@@ -76,7 +76,7 @@ export const aws_services_compute: ServiceData[] = [
       "AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (such as CPU or memory-optimized instances) based on the volume and specific resource requirements of the batch jobs submitted. With AWS Batch, there is no need to install and manage batch computing software or server clusters that you use to run your jobs, allowing you to focus on analyzing results and solving problems. AWS Batch plans, schedules, and runs your batch computing workloads across the full range of AWS compute services and features, such as Amazon EC2 and Spot Instances.",
     ],
     icon: "/aws/svgs/Batch.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "ElasticBeanstalk",
@@ -86,7 +86,7 @@ export const aws_services_compute: ServiceData[] = [
       "You can simply upload your code, and AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, and auto scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time.",
     ],
     icon: "/aws/svgs/ElasticBeanstalk.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "Fargate",
@@ -97,7 +97,7 @@ export const aws_services_compute: ServiceData[] = [
       "You are responsible for provisioning, patching, and scaling clusters of servers. You can decide which type of server to use, which applications and how many containers to run in a cluster to optimize utilization, and when you should add or remove servers from a cluster. EC2 launch type gives you more control of your server clusters and provides a broader range of customization options, which might be required to support some specific applications or possible compliance and government requirements.",
     ],
     icon: "/aws/svgs/Fargate.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "Lambda",
@@ -106,7 +106,7 @@ export const aws_services_compute: ServiceData[] = [
       "AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume—there is no charge when your code is not running. With Lambda, you can run code for virtually any type of application or backend service—all with zero administration. Just upload your code, and Lambda takes care of everything required to run and scale your code with high availability. You can set up your code to automatically run from other AWS services, or you can call it directly from any web or mobile app.",
     ],
     icon: "/aws/svgs/Cognito.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "ServerlessApplicationRepository",
@@ -116,7 +116,7 @@ export const aws_services_compute: ServiceData[] = [
       "You can also use the AWS Serverless Application Repository to publish your own applications and share them within your team, across your organization, or with the community at large. To share an application you've built, publish it to the AWS Serverless Application Repository.",
     ],
     icon: "/aws/svgs/ServerlessApplicationRepository.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "Outposts",
@@ -129,7 +129,7 @@ export const aws_services_compute: ServiceData[] = [
       "AWS Outposts infrastructure is fully managed, maintained, and supported by AWS to deliver access to the latest AWS services. Getting started is easy, you simply log into the AWS Management Console to order your Outposts servers, choosing from a wide range of compute and storage options. You can order one or more servers, or quarter, half, and full rack units.",
     ],
     icon: "/aws/svgs/Outposts.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "Wavelength",
@@ -138,7 +138,7 @@ export const aws_services_compute: ServiceData[] = [
       "AWS Wavelength is an AWS Infrastructure offering optimized for mobile edge computing applications. Wavelength Zones are AWS infrastructure deployments that embed AWS compute and storage services within communications service providers’ (CSP) datacenters at the edge of the 5G network, so application traffic from 5G devices can reach application servers running in Wavelength Zones without leaving the telecommunications network. This avoids the latency that would result from application traffic having to traverse multiple hops across the Internet to reach their destination, enabling customers to take full advantage of the latency and bandwidth benefits offered by modern 5G networks.",
     ],
     icon: "/aws/svgs/Wavelength.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
   {
     id: "VMwareCloudOn",
@@ -150,6 +150,6 @@ export const aws_services_compute: ServiceData[] = [
       "With VMware Cloud on AWS, organizations can simplify their Hybrid IT operations by using the same VMware Cloud Foundation technologies including vSphere, vSAN, NSX, and vCenter Server across their on-premises data centers and on the AWS Cloud without having to purchase any new or custom hardware, rewrite applications, or modify their operating models. The service automatically provisions infrastructure and provides full VM compatibility and workload portability between your on-premises environments and the AWS Cloud. With VMware Cloud on AWS, you can use a broad range of AWS services, including compute, databases, analytics, IoT, security, mobile, deployment, application services, and more.",
     ],
     icon: "/aws/svgs/VMwareCloudOn.svg",
-    service_tag: [ServiceGroups.Compute],
+    service_tag: [ServiceGroups.Compute.name],
   },
 ];

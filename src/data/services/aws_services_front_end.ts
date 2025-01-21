@@ -11,7 +11,7 @@ export const aws_services_front_end: ServiceData[] = [
       "Amplify provisions and manages backends for your mobile applications. You just select the capabilities you need such as authentication, analytics, or offline data sync, and Amplify will automatically provision and manage the AWS service that powers each of the capabilities. You can then integrate those capabilities into your application through the Amplify libraries and UI components.",
     ],
     icon: "/aws/svgs/Amplify.svg",
-    service_tag: [ServiceGroups.Frontend_web_and_mobile_services],
+    service_tag: [ServiceGroups.Frontend_web_and_mobile_services.name],
   },
   {
     id: "AppSync",
@@ -21,7 +21,7 @@ export const aws_services_front_end: ServiceData[] = [
       "AWS AppSync makes it easy to build data driven mobile and web applications by handling securely all the application data management tasks such as online and offline data access, data synchronization, and data manipulation across multiple data sources. AWS AppSync uses GraphQL, an API query language designed to build client applications by providing an intuitive and flexible syntax for describing their data requirement.",
     ],
     icon: "/aws/svgs/AppSync.svg",
-    service_tag: [ServiceGroups.Frontend_web_and_mobile_services],
+    service_tag: [ServiceGroups.Frontend_web_and_mobile_services.name],
   },
   {
     id: "DeviceFarm",
@@ -30,7 +30,7 @@ export const aws_services_front_end: ServiceData[] = [
       "AWS Device Farm is an app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once, or reproduce issues on a device in real time. View video, screenshots, logs, and performance data to pinpoint and fix issues before shipping your app.",
     ],
     icon: "/aws/svgs/DeviceFarm.svg",
-    service_tag: [ServiceGroups.Frontend_web_and_mobile_services],
+    service_tag: [ServiceGroups.Frontend_web_and_mobile_services.name],
   },
   {
     id: "LocationService",
@@ -41,6 +41,6 @@ export const aws_services_front_end: ServiceData[] = [
       "Amazon Location Service provides affordable data, tracking and geofencing capabilities, and native integrations with AWS services, so you can create sophisticated location-enabled applications quickly, without the high cost of custom development. You retain control of your location data with Amazon Location, and you can combine proprietary data with data from the service. Amazon Location provides cost-effective location-based services (LBS) using high-quality data from global, trusted providers Esri and HERE.",
     ],
     icon: "/aws/svgs/LocationService.svg",
-    service_tag: [ServiceGroups.Frontend_web_and_mobile_services],
+    service_tag: [ServiceGroups.Frontend_web_and_mobile_services.name],
   },
 ];

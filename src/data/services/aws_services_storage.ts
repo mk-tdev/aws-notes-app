@@ -9,7 +9,7 @@ export const aws_services_storage: ServiceData[] = [
       "AWS Backup enables you to centralize and automate data protection across AWS services. AWS Backup offers a cost-effective, fully managed, policy-based service that further simplifies data protection at scale. AWS Backup also helps you support your regulatory compliance or business policies for data protection. Together with AWS Organizations, AWS Backup enables you to centrally deploy data protection policies to configure, manage, and govern your backup activity across your organization’s AWS accounts and resources, including Amazon Elastic Compute Cloud (Amazon EC2) instances, Amazon Elastic Block Store (Amazon EBS) volumes, Amazon Relational Database Service (Amazon RDS) databases (including Amazon Aurora clusters), Amazon DynamoDB tables, Amazon Elastic File System (Amazon EFS) file systems, Amazon FSx for Lustre file systems, Amazon FSx for Windows File Server file systems, and AWS Storage Gateway volumes.",
     ],
     icon: "/aws/svgs/Backup.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "ElasticBlockStore",
@@ -18,7 +18,7 @@ export const aws_services_storage: ServiceData[] = [
       "Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud. Each Amazon EBS volume is automatically replicated within its Availability Zone to protect you from component failure, offering high availability and durability. Amazon EBS volumes offer the consistent and low-latency performance needed to run your workloads. With Amazon EBS, you can scale your usage up or down within minutes—all while paying a low price for only what you provision.",
     ],
     icon: "/aws/svgs/ElasticBlockStore.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "ElasticDisasterRecovery",
@@ -29,7 +29,7 @@ export const aws_services_storage: ServiceData[] = [
       "If you must replicate to the AWS China Regions or perform replication and recovery into AWS Outposts, use CloudEndure Disaster Recovery available in the AWS Marketplace.",
     ],
     icon: "/aws/svgs/ElasticDisasterRecovery.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "FileCache",
@@ -40,7 +40,7 @@ export const aws_services_storage: ServiceData[] = [
       "For long-lived data that is accessed only a few times a year or less, consider Amazon EFS Archive, a cost-effective way to retain even your coldest data so that it's always available to power new business insights. Amazon EFS Archive supports the same intelligent tiering experience as existing EFS storage classes. This means that you can combine the sub-millisecond SSD latencies of Amazon EFS Standard for your active frequently-accessed data with the lower costs of Amazon EFS IA and Amazon EFS Archive for your colder data.",
     ],
     icon: "/aws/svgs/FileCache.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "ElastiCache",
@@ -49,7 +49,7 @@ export const aws_services_storage: ServiceData[] = [
       "Amazon File Cache is a fully managed high-speed cache on AWS that makes it easier to process file data, regardless of where the data is stored. Amazon File Cache serves as temporary, high-performance storage for data in on-premises file systems, or in file systems or object stores on AWS. The service allows you to make dispersed datasets available to file-based applications on AWS with a unified view and high speeds. You can link the cache to multiple NFS—including on-premises and in-cloud—or Amazon Simple Storage Service (Amazon S3) buckets, providing a unified view of and fast access to your data spanning on-premises and multiple AWS Regions. The cache provides read and write data access to compute workloads on AWS with sub-millisecond latencies, up to hundreds of GB/s of throughput, and up to millions of IOPS.",
     ],
     icon: "/aws/svgs/ElastiCache.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "FSxForLustre",
@@ -59,7 +59,7 @@ export const aws_services_storage: ServiceData[] = [
       "Amazon FSx for Lustre is seamlessly integrated with Amazon S3, making it easy to link your long-term data sets with your high performance file systems to run compute-intensive workloads. You can automatically copy data from S3 to Amazon FSx for Lustre, run your workloads, and then write results back to S3. Amazon FSx for Lustre also enables you to burst your compute-intensive workloads from on-premises to AWS by allowing you to access your FSx file system over Amazon Direct Connect or VPN. Amazon FSx for Lustre helps you cost-optimize your storage for compute-intensive workloads: It provides cheap and performant non-replicated storage for processing data, with your long-term data stored durably in Amazon S3 or other low-cost data stores. With Amazon FSx, you pay for only the resources you use. There are no minimum commitments, upfront hardware or software costs, or additional fees.",
     ],
     icon: "/aws/svgs/FSxForLustre.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "FSxforNetAppONTAP",
@@ -69,7 +69,7 @@ export const aws_services_storage: ServiceData[] = [
       "Amazon FSx for NetApp ONTAP offers high-performance file storage that is broadly accessible from Linux, Windows, and macOS compute instances via the industry-standard NFS, SMB, and iSCSI protocols. With Amazon FSx for NetApp ONTAP, you get low-cost, fully elastic storage capacity with support for compression and deduplication to help you further reduce storage costs. Amazon FSx for NetApp ONTAP file systems can be deployed and managed using the AWS Management Console or NetApp Cloud Manager for seamless set up and administration.",
     ],
     icon: "/aws/svgs/FSxforNetAppONTAP.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "FSxforOpenZFS",
@@ -79,7 +79,7 @@ export const aws_services_storage: ServiceData[] = [
       "Amazon FSx for OpenZFS offers the familiar features, performance, and capabilities of OpenZFS file systems with the agility, scalability, and simplicity of a fully managed AWS service.",
     ],
     icon: "/aws/svgs/FSxforOpenZFS.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "FSxForWfs",
@@ -89,7 +89,7 @@ export const aws_services_storage: ServiceData[] = [
       "With Amazon FSx, you can launch highly durable and available Windows file systems that can be accessed from up to thousands of compute instances using the industry-standard SMB protocol. Amazon FSx eliminates the typical administrative overhead of managing Windows file servers. You pay for only the resources used, with no upfront costs, minimum commitments, or additional fees.",
     ],
     icon: "/aws/svgs/FSxForWfs.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "S3Standard",
@@ -99,7 +99,7 @@ export const aws_services_storage: ServiceData[] = [
       "Amazon S3 storage classes are a range of storage classes that you can choose from based on the data access, resiliency, and cost requirements of your workloads. S3 storage classes are purpose-built to provide the lowest cost storage for different access patterns. S3 storage classes are ideal for virtually any use case, including those with demanding performance needs, data residency requirements, unknown or changing access patterns, or archival storage.",
     ],
     icon: "/aws/svgs/S3Standard.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
   {
     id: "StorageGateway",
@@ -108,6 +108,6 @@ export const aws_services_storage: ServiceData[] = [
       "The AWS Storage Gateway is a hybrid storage service that allows your on-premises applications to seamlessly use AWS cloud storage. You can use the service for backup and archiving, disaster recovery, cloud data processing, storage tiering, and migration. Your applications connect to the service through a virtual machine or hardware gateway appliance using standard storage protocols, such as NFS, SMB and iSCSI. The gateway connects to AWS storage services, such as Amazon S3, S3 Glacier, and Amazon EBS, and Amazon FSx for Windows File Server, providing storage for files, volumes, and virtual tapes in AWS. The service includes a highly-optimized data transfer mechanism, with bandwidth management, automated network resilience, and efficient data transfer, along with a local cache for low-latency on-premises access to your most active data.",
     ],
     icon: "/aws/svgs/StorageGateway.svg",
-    service_tag: [ServiceGroups.Storage],
+    service_tag: [ServiceGroups.Storage.name],
   },
 ];

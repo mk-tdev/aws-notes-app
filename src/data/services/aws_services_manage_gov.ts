@@ -1,5 +1,5 @@
-import { ServiceGroups } from "../../aws-service-groups";
-import { ServiceData } from "../../aws-services";
+import { ServiceGroups } from "../aws-service-groups";
+import { ServiceData } from "../aws-services";
 
 export const aws_services_manage_gov: ServiceData[] = [
   {
@@ -9,7 +9,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. Using AWS Auto Scaling, it’s easy to setup application scaling for multiple resources across multiple services in minutes. The service provides a simple, powerful user interface that lets you build scaling plans for resources including Amazon EC2 instances and Spot Fleets, Amazon ECS tasks, Amazon DynamoDB tables and indexes, and Amazon Aurora Replicas. AWS Auto Scaling makes scaling simple with recommendations that allow you to optimize performance, costs, or balance between them. If you’re already using Amazon EC2 Auto Scaling to dynamically scale your Amazon EC2 instances, you can now combine it with AWS Auto Scaling to scale additional resources for other AWS services. With AWS Auto Scaling, your applications always have the right resources at the right time.",
     ],
     icon: "/aws/svgs/ApplicationAutoScaling.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "MAN_GOV_Chatbot",
@@ -19,7 +19,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS Chatbot manages the integration between AWS services and your Slack channels or Amazon Chime chat rooms helping you to get started with ChatOps fast. With just a few clicks you can start receiving notifications and issuing commands in your chosen channels or chat rooms, so your team doesn’t have to switch contexts to collaborate. AWS Chatbot makes it easier for your team to stay updated, collaborate, and respond faster to operational events, security findings, CI/CD workflows, budget, and other alerts for applications running in your AWS accounts.",
     ],
     icon: "/aws/svgs/Chatbot.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "CloudFormation",
@@ -29,7 +29,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "You can use the AWS CloudFormation sample templates or create your own templates to describe your AWS resources, and any associated dependencies or runtime parameters, required to run your application. You don’t need to figure out the order for provisioning AWS services or the subtleties of making those dependencies work. CloudFormation takes care of this for you. After the AWS resources are deployed, you can modify and update them in a controlled and predictable way, in effect applying version control to your AWS infrastructure the same way you do with your software. You can also visualize your templates as diagrams and edit them using a drag-and-drop interface with AWS Infrastructure Composer.",
     ],
     icon: "/aws/svgs/CloudFormation.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "CloudTrail",
@@ -39,7 +39,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "With CloudTrail, you can get a history of AWS API calls for your account, including API calls made using the AWS Management Console, AWS SDKs, command line tools, and higher-level AWS services (such as AWS CloudFormation). The AWS API call history produced by CloudTrail enables security analysis, resource change tracking, and compliance auditing.",
     ],
     icon: "/aws/svgs/CloudTrail.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "CloudWatch",
@@ -48,7 +48,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "Amazon CloudWatch is a monitoring and management service built for developers, system operators, site reliability engineers (SRE), and IT managers. CloudWatch provides you with data and actionable insights to monitor your applications, understand and respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health. CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, providing you with a unified view of AWS resources, applications and services that run on AWS, and on-premises servers. You can use CloudWatch to set high resolution alarms, visualize logs and metrics side by side, take automated actions, troubleshoot issues, and discover insights to optimize your applications, and ensure they are running smoothly.",
     ],
     icon: "/aws/svgs/CloudWatch.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "ComputeOptimizer",
@@ -59,7 +59,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "Compute Optimizer is available to you at no additional charge. To get started, you can opt in to the service in the AWS Compute Optimizer Console.",
     ],
     icon: "/aws/svgs/ComputeOptimizer.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "ConsoleMobileApplication",
@@ -69,7 +69,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "The AWS Console Mobile Application allows AWS customers to monitor resources through a dedicated dashboard and view configuration details, metrics, and alarms for select AWS services. The Dashboard provides permitted users with a single view a resource's status, with real-time data on Amazon CloudWatch, AWS Health Dashboard, and AWS Billing and Cost Management. Customers can view ongoing issues and follow through to the relevant CloudWatch alarm screen for a detailed view with graphs and configuration options. In addition, customers can check on the status of specific AWS services, view detailed resource screens, and perform select actions.",
     ],
     icon: "/aws/svgs/ConsoleMobileApplication.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "ControlTower",
@@ -80,7 +80,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS Control Tower automates the set-up of their landing zone and configures AWS management and security services based on established best practices in a secure, compliant, multi-account environment. Distributed teams are able to provision new AWS accounts quickly, while central teams have the peace of mind knowing that new accounts are aligned with centrally established, company-wide compliance policies. This gives you control over your environment, without sacrificing the speed and agility AWS provides your development teams.",
     ],
     icon: "/aws/svgs/ControlTower.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "MAN_GOV_Config",
@@ -90,7 +90,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "With AWS Config, you can discover existing and deleted AWS resources, determine your overall compliance against rules, and dive into configuration details of a resource at any point in time. These capabilities enable compliance auditing, security analysis, resource change tracking, and troubleshooting.",
     ],
     icon: "/aws/svgs/Config.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "PersonalHealthDashboard",
@@ -99,7 +99,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that might affect you. While the Service Health Dashboard displays the general status of AWS services, AWS Health Dashboard gives you a personalized view into the performance and availability of the AWS services underlying your AWS resources. The dashboard displays relevant and timely information to help you manage events in progress, and provides proactive notification to help you plan for scheduled activities. With AWS Health Dashboard, alerts are automatically initiated by changes in the health of AWS resources, giving you event visibility and guidance to help quickly diagnose and resolve issues.",
     ],
     icon: "/aws/svgs/PersonalHealthDashboard.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "AppWizard",
@@ -109,7 +109,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS Launch Wizard also creates CloudFormation templates that can serve as a baseline to accelerate subsequent deployments. Launch Wizard is available to you at no additional charge. You only pay for the AWS resources that are provisioned for running your solution.",
     ],
     icon: "/aws/svgs/AppWizard.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "LicenseManager",
@@ -119,7 +119,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS License Manager integrates with AWS services to simplify the management of licenses across multiple AWS accounts, IT catalogs, and on-premises, through a single AWS account. License administrators can add rules in Service Catalog, which allows them to create and manage catalogs of IT services that are approved for use on all their AWS accounts. Through seamless integration with AWS Systems Manager and AWS Organizations, administrators can manage licenses across all the AWS accounts in an organization and on-premises environments. AWS Marketplace buyers can also use AWS License Manager to track bring your own license (BYOL) software obtained from the Marketplace and keep a consolidated view of all their licenses.",
     ],
     icon: "/aws/svgs/LicenseManager.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "ManagedGrafana",
@@ -129,7 +129,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "Amazon Managed Grafana provides built-in security features for compliance with corporate governance requirements, including single sign-on, data access control, and audit reporting. Amazon Managed Grafana integrates with AWS data sources, such as Amazon CloudWatch, Amazon OpenSearch Service, AWS X-Ray, AWS IoT SiteWise, Amazon Timestream, and Amazon Managed Service for Prometheus. Amazon Managed Grafana also supports many popular open-source, third party, and other cloud data sources.",
     ],
     icon: "/aws/svgs/ManagedGrafana.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "ManagedServiceforPrometheus",
@@ -139,7 +139,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "Amazon Managed Service for Prometheus automatically scales the ingestion, storage, and querying of operational metrics as workloads scale up and down. It integrates with AWS security services to enable fast and secure access to data. Designed to be highly available, data ingested into a workspace is replicated across three Availability Zones in the same AWS Region.",
     ],
     icon: "/aws/svgs/ManagedServiceforPrometheus.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "Organizations",
@@ -149,7 +149,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "In addition, AWS Organizations is integrated with other AWS services so you can define central configurations, security mechanisms, audit requirements, and resource sharing across accounts in your organization. AWS Organizations is available to all AWS customers at no additional charge.",
     ],
     icon: "/aws/svgs/Organizations.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "OpsWorks",
@@ -158,7 +158,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet. Chef and Puppet are automation platforms that allow you to use code to automate the configurations of your servers. AWS OpsWorks lets you use Chef and Puppet to automate how servers are configured, deployed, and managed across your Amazon EC2 instances or on-premises compute environments. AWS OpsWorks has three offerings, AWS OpsWorks for Chef Automate, AWS OpsWorks for Puppet Enterprise, and AWS OpsWorks Stacks.",
     ],
     icon: "/aws/svgs/OpsWorks.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "Proton",
@@ -169,7 +169,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS Proton solves this by giving platform teams the tools they need to manage this complexity and enforce consistent standards, while making it easy for developers to deploy their code using containers and serverless technologies.",
     ],
     icon: "/aws/svgs/Proton.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "ServiceCatalog",
@@ -178,7 +178,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS. These IT services can include everything from virtual machine images, servers, software, and databases to complete multi-tier application architectures. Service Catalog allows you to centrally manage commonly deployed IT services and helps you achieve consistent governance and meet your compliance requirements, while enabling users to quickly deploy only the approved IT services they need.",
     ],
     icon: "/aws/svgs/ServiceCatalog.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "SystemsManager",
@@ -187,7 +187,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS resources. With Systems Manager, you can group resources, such as Amazon EC2 instances, Amazon S3 buckets, or Amazon RDS instances, by application, view operational data for monitoring and troubleshooting, and take action on your groups of resources. Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and makes it easy to operate and manage your infrastructure securely at scale.",
     ],
     icon: "/aws/svgs/SystemsManager.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "TrustedAdvisor",
@@ -196,7 +196,7 @@ export const aws_services_manage_gov: ServiceData[] = [
       "AWS Trusted Advisor is an online resource to help you reduce cost, increase performance, and improve security by optimizing your AWS environment. Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices.",
     ],
     icon: "/aws/svgs/TrustedAdvisor.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
   {
     id: "WellArchitectTool",
@@ -207,6 +207,6 @@ export const aws_services_manage_gov: ServiceData[] = [
       "To use the AWS WA Tool, available in the AWS Management Console at no charge, just define your workload and answer a set of questions regarding operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. The AWS WA Tool then provides a plan on how to architect for the cloud using established best practices.",
     ],
     icon: "/aws/svgs/WellArchitectTool.svg",
-    service_tag: [ServiceGroups.Management_and_governance],
+    service_tag: [ServiceGroups.Management_and_governance.name],
   },
 ];

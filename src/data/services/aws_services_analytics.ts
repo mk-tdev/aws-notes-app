@@ -11,7 +11,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Athena is out-of-the-box integrated with AWS Glue Data Catalog, allowing you to create a unified metadata repository across various services, crawl data sources to discover schemas and populate your Catalog with new and modified table and partition definitions, and maintain schema versioning.",
     ],
     icon: "/aws/svgs/Athena.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "CloudSearch",
@@ -20,7 +20,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application. Amazon CloudSearch supports 34 languages and popular search features such as highlighting, autocomplete, and geospatial search.",
     ],
     icon: "/aws/svgs/CloudSearch.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "Sdk",
@@ -29,7 +29,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon DataZone is a data management service that you can use to publish data and make it available to the business data catalog through your personalized web application. You can access your data more securely regardless of where it is stored—on AWS, on premises, or in SaaS applications such as Salesforce. Amazon DataZone simplifies your experience across AWS services such as Amazon Redshift, Amazon Athena, AWS Glue, AWS Lake Formation, and Amazon QuickSight.",
     ],
     icon: "/aws/svgs/DataZone.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "Emr",
@@ -38,7 +38,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon EMR is the industry-leading cloud big data platform for processing vast amounts of data using open source tools such as Apache Spark, Apache Hive, Apache HBase, Apache Flink, Apache Hudi, and Presto. Amazon EMR makes it easy to set up, operate, and scale your big data environments by automating time-consuming tasks such as provisioning capacity and tuning clusters. With Amazon EMR, you can run petabyte-scale analysis at less than half of the cost of traditional on-premises solutions and over 3x faster than standard Apache Spark. You can run workloads on Amazon EC2 instances, on Amazon Elastic Kubernetes Service (Amazon EKS) clusters, or on-premises using Amazon EMR on AWS Outposts.",
     ],
     icon: "/aws/svgs/Emr.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "FinSpace",
@@ -49,7 +49,7 @@ export const aws_services_analytics: ServiceData[] = [
       "FinSpace removes the heavy lifting of building and maintaining a data management system for financial analytics. With FinSpace, you collect data and catalog it by relevant business concepts such as asset class, risk classification, or geographic region. FinSpace makes it easy to discover and share data across your organization in accordance with your compliance requirements. You define your data access policies in one place and FinSpace enforces them while keeping audit logs to allow for compliance and activity reporting. FinSpace also includes a library of 100+ functions, such as time bars and Bollinger bands, for you to prepare data for analysis.",
     ],
     icon: "/aws/svgs/FinSpace.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "Kinesis",
@@ -59,7 +59,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon Kinesis currently offers four services: Firehose, Managed Service for Apache Flink, Kinesis Data Streams, and Kinesis Video Streams.",
     ],
     icon: "/aws/svgs/Kinesis.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "KinesisFirehose",
@@ -69,7 +69,7 @@ export const aws_services_analytics: ServiceData[] = [
       "You can easily create a Firehose delivery stream from the AWS Management Console, conﬁgure it with a few clicks, and start sending data to the stream from hundreds of thousands of data sources to be loaded continuously to AWS—all in just a few minutes. You can also configure your delivery stream to automatically convert the incoming data to columnar formats such as Apache Parquet and Apache ORC, before the data is delivered to Amazon S3, for cost-effective storage and analytics.",
     ],
     icon: "/aws/svgs/KinesisFirehose.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "DefaultManagedServices_1",
@@ -79,7 +79,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon Managed Service for Apache Flink takes care of everything required to run your queries continuously and scales automatically to match the volume and throughput rate of your incoming data.",
     ],
     icon: "/aws/svgs/DefaultManagedServices.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "KinesisDataStreams",
@@ -88,7 +88,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon Kinesis Data Streams is a massively scalable and durable real-time data streaming service. Kinesis Data Streams can continuously capture gigabytes of data per second from hundreds of thousands of sources such as website clickstreams, database event streams, financial transactions, social media feeds, IT logs, and location-tracking events. The data collected is available in milliseconds to enable real-time analytics use cases such as real-time dashboards, real-time anomaly detection, dynamic pricing, and more.",
     ],
     icon: "/aws/svgs/KinesisDataStreams.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "KinesisVideoStreams",
@@ -97,7 +97,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon Kinesis Video Streams makes it easy to securely stream video from connected devices to AWS for analytics, ML, playback, and other processing. Kinesis Video Streams automatically provisions and elastically scales all the infrastructure needed to ingest streaming video data from millions of devices. It also durably stores, encrypts, and indexes video data in your streams, and allows you to access your data through easy-to-use APIs. Kinesis Video Streams enables you to playback video for live and on-demand viewing, and quickly build applications that take advantage of computer vision and video analytics through integration with Amazon Rekognition Video, and libraries for ML frameworks such as Apache MxNet, TensorFlow, and OpenCV.",
     ],
     icon: "/aws/svgs/KinesisVideoStreams.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "OpenSearchService_1",
@@ -106,7 +106,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon OpenSearch Service (OpenSearch Service) makes it easy to deploy, secure, operate, and scale OpenSearch to search, analyze, and visualize data in real-time. With Amazon OpenSearch Service, you get easy-to-use APIs and real-time analytics capabilities to power use-cases such as log analytics, full-text search, application monitoring, and clickstream analytics, with enterprise-grade availability, scalability, and security. The service offers integrations with open-source tools such as OpenSearch Dashboards and Logstash for data ingestion and visualization. It also integrates seamlessly with other AWS services such as Amazon Virtual Private Cloud (Amazon VPC), AWS Key Management Service (AWS KMS), Amazon Data Firehose, AWS Lambda, AWS Identity and Access Management (IAM), Amazon Cognito, and Amazon CloudWatch, so that you can go from raw data to actionable insights quickly.",
     ],
     icon: "/aws/svgs/OpenSearchService.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "OpenSearchService_2",
@@ -116,7 +116,7 @@ export const aws_services_analytics: ServiceData[] = [
       "The vector engine for Amazon OpenSearch Serverless, adds a simple, scalable, and high-performing vector storage and search capability to help developers build ML-augmented search experiences and generative AI applications without having to manage vector database infrastructure. Use cases for vector search collections include image search, document search, music retrieval, product recommendation, video search, location-based search, fraud detection, and anomaly detection.",
     ],
     icon: "/aws/svgs/OpenSearchService.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "Redshift_1",
@@ -125,7 +125,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon Redshift is the most widely used cloud data warehouse. It makes it fast, simple and cost-effective to analyze all your data using standard SQL and your existing Business Intelligence (BI) tools. It allows you to run complex analytic queries against terabytes to petabytes of structured and semi-structured data, using sophisticated query optimization, columnar storage on high-performance storage, and massively parallel query completion. Most results come back in seconds. You can start small for just $0.25 per hour with no commitments and scale out to petabytes of data for $1,000 per terabyte per year, less than a tenth the cost of traditional on-premises solutions.",
     ],
     icon: "/aws/svgs/Redshift.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "Redshift_2",
@@ -134,7 +134,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon Redshift Serverless makes it easier to run and scale analytics without having to manage your data warehouse infrastructure. Developers, data scientists, and analysts can work across databases, data warehouses, and data lakes to build reporting and dashboarding applications, perform near real-time analytics, share and collaborate on data, and build and train machine learning (ML) models. Go from large amounts of data to insights in seconds. Amazon Redshift Serverless automatically provisions and intelligently scales data warehouse capacity to deliver fast performance for even the most demanding and unpredictable workloads, and you pay only for what you use. Just load data and start querying right away in Amazon Redshift Query Editor or in your favorite business intelligence (BI) tool and continue to enjoy the best price performance and familiar SQL features in an easy-to-use, zero administration environment.",
     ],
     icon: "/aws/svgs/Redshift.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "QuickSight",
@@ -143,7 +143,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Amazon QuickSight is a fast, cloud-powered business intelligence (BI) service that makes it easy for you to deliver insights to everyone in your organization. QuickSight lets you create and publish interactive dashboards that can be accessed from browsers or mobile devices. You can embed dashboards into your applications, providing your customers with powerful self-service analytics. Amazon QuickSight easily scales to tens of thousands of users without any software to install, servers to deploy, or infrastructure to manage.",
     ],
     icon: "/aws/svgs/QuickSight.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "CleanRooms",
@@ -152,7 +152,7 @@ export const aws_services_analytics: ServiceData[] = [
       "AWS Clean Rooms helps companies and their partners more easily and securely analyze and collaborate on their collective datasets–without sharing or copying one another's underlying data. With AWS Clean Rooms, customers can create a secure data clean room in minutes, and collaborate with any other company on the AWS Cloud to generate unique insights about advertising campaigns, investment decisions, and research and development.",
     ],
     icon: "/aws/svgs/CleanRooms.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "DataExchange",
@@ -163,7 +163,7 @@ export const aws_services_analytics: ServiceData[] = [
       "For data providers, AWS Data Exchange makes it easy to reach the millions of AWS customers migrating to the cloud by removing the need to build and maintain infrastructure for data storage, delivery, billing, and entitling.",
     ],
     icon: "/aws/svgs/DataExchange.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "DataPipeline",
@@ -173,7 +173,7 @@ export const aws_services_analytics: ServiceData[] = [
       "AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available. You don’t have to worry about ensuring resource availability, managing inter-task dependencies, retrying transient failures or timeouts in individual tasks, or creating a failure notification system. AWS Data Pipeline also allows you to move and process data that was previously locked up in on-premises data silos.",
     ],
     icon: "/aws/svgs/DataPipeline.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "DefaultManagedServices_2",
@@ -182,7 +182,7 @@ export const aws_services_analytics: ServiceData[] = [
       "AWS Entity Resolution is a service that helps you match and link related records stored across multiple applications, channels, and data stores without building a custom solution. Using flexible, configurable ML and rule-based techniques, AWS Entity Resolution can remove duplicate records, create customer profiles by connecting different customer interactions, and personalize experiences across advertising and marketing campaigns, loyalty programs, and e-commerce. For example, you can create a unified view of customer interactions by linking recent events, such as ad clicks, cart abandonment, and purchases, into a unique match ID.",
     ],
     icon: "/aws/svgs/DefaultManagedServices.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "Glue",
@@ -193,7 +193,7 @@ export const aws_services_analytics: ServiceData[] = [
       "AWS Glue Data Quality can measure and monitor the data quality of Amazon S3 based data lakes, data warehouses, and other data repositories. It automatically computes statistics, recommends quality rules, and can monitor and alert you when it detects missing, stale, or bad data. You can access it in the AWS Glue Data Catalog and in AWS Glue Data Catalog ETL jobs.",
     ],
     icon: "/aws/svgs/Glue.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "LakeFormation",
@@ -204,7 +204,7 @@ export const aws_services_analytics: ServiceData[] = [
       "Creating a data lake with Lake Formation is as simple as defining where your data resides and what data access and security policies you want to apply. Lake Formation then collects and catalogs data from databases and object storage, moves the data into your new Amazon S3 data lake, cleans and classifies data using ML algorithms, and secures access to your sensitive data. Your users can then access a centralized catalog of data which describes available data sets and their appropriate usage. Your users then leverage these data sets with their choice of analytics and ML services, such as Amazon EMR for Apache Spark, Amazon Redshift, Amazon Athena, SageMaker AI, and Amazon QuickSight.",
     ],
     icon: "/aws/svgs/LakeFormation.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
   {
     id: "ManagedStreamingForKafka",
@@ -215,6 +215,6 @@ export const aws_services_analytics: ServiceData[] = [
       "With a few clicks in the Amazon MSK console you can create highly available Apache Kafka clusters with settings and configuration based on Apache Kafka’s deployment best practices. Amazon MSK automatically provisions and runs your Apache Kafka clusters. Amazon MSK continuously monitors cluster health and automatically replaces unhealthy nodes with no downtime to your application. In addition, Amazon MSK secures your Apache Kafka cluster by encrypting data at rest.",
     ],
     icon: "/aws/svgs/ManagedStreamingForKafka.svg",
-    service_tag: [ServiceGroups.Analytics],
+    service_tag: [ServiceGroups.Analytics.name],
   },
 ];

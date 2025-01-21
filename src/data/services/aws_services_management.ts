@@ -9,7 +9,7 @@ export const aws_services_management: ServiceData[] = [
       "Access and manage Amazon Web Services through the AWS Management Console, a simple and intuitive user interface. You can also use the AWS Management Console Application to quickly view resources on the go.",
     ],
     icon: "/aws/svgs/ManagementConsole.svg",
-    service_tag: [ServiceGroups.ACCESSING_AWS_SERVICES],
+    service_tag: [ServiceGroups.ACCESSING_AWS_SERVICES.name],
   },
   {
     id: "CommandLineInterface",
@@ -19,7 +19,7 @@ export const aws_services_management: ServiceData[] = [
       "AWS CloudShell, which can be found next to the search bar in the AWS Management Console, provides a browser-based shell that is pre-authenticated with your console credentials. Using CloudShell, you can quickly run AWS commands and scripts without leaving your web browser.",
     ],
     icon: "/aws/svgs/CommandLineInterface.svg",
-    service_tag: [ServiceGroups.ACCESSING_AWS_SERVICES],
+    service_tag: [ServiceGroups.ACCESSING_AWS_SERVICES.name],
   },
   {
     id: "ToolsandSDKs",
@@ -28,6 +28,6 @@ export const aws_services_management: ServiceData[] = [
       "Our Software Development Kits (SDKs) simplify using AWS services in your applications with an Application Program Interface (API) tailored to your programming language or platform.",
     ],
     icon: "/aws/svgs/ToolsandSDKs.svg",
-    service_tag: [ServiceGroups.ACCESSING_AWS_SERVICES],
+    service_tag: [ServiceGroups.ACCESSING_AWS_SERVICES.name],
   },
 ];
